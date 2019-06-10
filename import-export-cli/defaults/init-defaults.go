@@ -24,14 +24,15 @@ var ProjectReadme = []byte(`WSO2 API Manager Project
 Project structure
 ================================
 
+├── api_params.yaml
 ├── Docs
-│   └── FileContents # holds documents
+│   └── FileContents
 ├── Image
 ├── Meta-information
-│   ├── api.json # information of API
-│   └── swagger.json # swagger definition for API
-├── README
-└── Sequences # sequences
+│   ├── api.json
+│   └── swagger.json
+├── README.txt
+└── Sequences
     ├── fault-sequence
     ├── in-sequence
     └── out-sequence
